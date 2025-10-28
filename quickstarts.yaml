@@ -62,10 +62,10 @@ spec:
     language: Ruby
     name: rails-shopping-cart
     version: 1.0.0+2712fbe9e
-  - downloadZipURL: https://codeload.github.com/jenkins-x-quickstarts/react-quickstart/zip/f1e295591
+  - downloadZipURL: https://api.github.com/repos/iamritikbhardwaj/react-quickstart/zipball/master
     language: JavaScript
     name: react-quickstart
-    version: 1.0.0+f1e295591
+    version: 1.0.0+master
   - downloadZipURL: https://codeload.github.com/jenkins-x-quickstarts/rollout-app/zip/953a29100
     language: HTML
     name: rollout-app
