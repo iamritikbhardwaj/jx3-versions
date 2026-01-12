@@ -1,0 +1,15 @@
+apiVersion: project.jenkins-x.io/v1alpha1
+kind: Quickstarts
+spec:
+  # 1. Add your custom quickstart here
+  quickstarts:
+  - name: my-react-quickstart
+    language: javascript
+    framework: react
+    downloadZipURL: https://api.github.com/repos/iamritikbhardwaj/react-quickstart/zipball/master
+
+  # 2. Import all the official ones from the file you just showed me
+  imports:
+  - file: versionStream/quickstarts.yaml
+    includes:
+    - ".*"
